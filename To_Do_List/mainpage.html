@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To_Do_ListApplication</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="mainpage.css">
+    <script src="mainpage.js"></script>
+    
+</head>
+<body>
+
+    <div class="container mt-5">
+        
+        <center><h1>To-Do List Application</h1></center>
+        <br><br>
+        <div class="input-group mb-3">
+            <input type="text" id="taskInput" class="form-control mb-3" placeholder="Add new task" >
+            <div class="input-group-append">
+              <button id="addTaskBtn" class="btn btn-success mb-3" type="button">Add Task</button>
+            </div>
+        </div>     <br>              
+        <h2>ADDED TASKS</h2>
+        <ul id="taskList" class="list-group mb-3">
+        </ul><br>
+        <h2>COMPLETED TASKS</h2>
+        <ul id="completedTaskList" class="list-group">
+        </ul>
+
+        <br>
+    </div>
+
+</body>
+</html>
